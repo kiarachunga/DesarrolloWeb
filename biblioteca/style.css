@@ -1,0 +1,76 @@
+
+.navbar-brand > img {
+    width: 150px;
+}
+
+.navbar-brand{
+    margin-top: -20px;
+}
+
+nav {
+    margin-right: 50px;
+}
+.contenedor p{
+    margin-left: 130px;
+}
+
+.contenedor h1{
+    margin-left: 130px;
+    margin-top: 80px;
+}
+.contenedor button{
+    margin-left: 130px;
+
+}
+
+.collapse .nav a{
+    color: black;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.box-area{
+    width: 930px;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 768px){
+     .box-area{
+        margin: 0 10px;
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+}
+
+
